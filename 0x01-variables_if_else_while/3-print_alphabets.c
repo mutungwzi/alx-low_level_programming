@@ -2,7 +2,9 @@
 
 /**
  * main - Entry point
+ *
  * Description: Print upper and lower
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
