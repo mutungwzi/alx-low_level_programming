@@ -1,22 +1,22 @@
 #include "main.h"
-#include <stdio.h>
+#include <string.h>
+
 /**
  * main - Entry point
- * descriptio: Printing "_putchar"
- *Return: Always 0 (success)
+ *
+ * description: prints _putchar using putchar prototype
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-char n[9] = "_putchar";
-int i = 0;
+char str[] = "_putchar";
+int ch;
 
-for (i = 0; i < 8; i++)
-{
-putchar(n[i]);
-}
-
-putchar('\n');
+for (ch = 0; ch < 8; ++ch)
+_putchar(str[ch]);
+_putchar('\n');
 
 return (0);
 }

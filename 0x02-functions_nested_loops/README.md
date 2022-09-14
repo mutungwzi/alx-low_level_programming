@@ -1,1 +1,1 @@
-C-Funtions,nested loops
+my first readme.md on fuction nested loops
