@@ -1,27 +1,22 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - Entry point
- *
- * Return: Always 0
+ * descriptio: Printing "_putchar"
+ *Return: Always 0 (success)
  */
-
-void print_alphabet_x10(void);
 
 int main(void)
 {
-char b;
-int times;
+char n[9] = "_putchar";
+int i = 0;
 
-
-for (times = 0; times <= 9; times++)
+for (i = 0; i < 8; i++)
 {
-for (b = 'b'; b <= 'z'; b++)
-{
-putchar(b)
-
+putchar(n[i]);
 }
+
 putchar('\n');
-}
+
 return (0);
 }
